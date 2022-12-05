@@ -1,0 +1,102 @@
+/* Common nav styles */
+.navigation-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 2rem;
+    flex-basis: 22%;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 80%;
+    height: auto;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    gap: 7px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 1rem 0rem;
+    flex-basis: 44%;
+}
+
+.navigation-wrapper > .center-column > .title-wrapper {
+    color: #e9d166;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    justify-content: left;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link button {
+    padding: 0rem 1rem;
+    background-color: transparent;
+    color: #acaaaa;
+    text-decoration: none;
+    border: 0;
+    font-size: 1.7rem;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    color: #fff;
+    font-style: unset;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 34%;
+}
+
+.right-colum > .search-and-user-menu {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1.7rem;
+}
+
+.right-colum > .search-and-user-menu > .create-elem {
+    padding: 10px 18px;
+    background-color: #2f3337;
+    border-radius: 5px;
+}
+
+.right-colum > .search-and-user-menu > .create-elem i{
+    color: rgb(10, 85, 10);
+}
+
+.right-colum > .search-and-user-menu > .search-elem {
+    padding: 10px 1px;
+    color: #8e8e8e;
+}
+
+.right-colum > .search-and-user-menu > .login-elem {
+    padding: 10px 18px;
+    background-color: #2f3337;
+    border-radius: 5px;
+}
+
+.right-colum > .search-and-user-menu > .signup-elem {
+    padding: 10px 18px;
+    background-color: #2f3337;
+    border-radius: 5px;
+}
